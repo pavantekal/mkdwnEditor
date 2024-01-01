@@ -12,7 +12,6 @@ router.use(bodyParser.json());
 
 
 
-/* GET users listing. */
 router.post('/api/convertmkdwn', function(req, res, next) {
   const toConvertMkdwnText = req.body
   const md = markdownit()
